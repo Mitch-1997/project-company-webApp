@@ -2,7 +2,6 @@
 
 ### (School project)
 
-
 + [Description](#overall-project-description)
 + [Setup instructions](#setup-instructions)
 + [Technology Used](#languages-and-frameworks)
@@ -10,7 +9,8 @@
 + [Authors Info](#Author)
 
 ## Overall Project Description
--It is a responsive company webapp which contains all the information the customer/user wants to know about the company.
+
+- It is a responsive company webapp which contains all the information the customer/user wants to know about the company.
 
 ## User Stories
 
