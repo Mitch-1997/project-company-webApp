@@ -19,7 +19,7 @@
     font-family: "Nunito", sans-serif;
 }
 .btnBox{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     margin-top: 2em;
