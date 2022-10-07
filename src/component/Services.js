@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import "../Css/Service.css";
 import Card from "./Combined"
-import { NavLink } from "react-router-dom";
 import { SettingsRemote } from "@mui/icons-material";
 
 
@@ -14,19 +13,19 @@ const Services = () => {
   
   useEffect(() => {
     // console.log("services")
-    fetch(`http://localhost:3000/services`)
-    .then((resp) => resp.json())
-    .then((data) =>{
-      setServices(data);
-    });
+    fetch(`https://webapp26.herokuapp.com/services`)
+      .then((resp) => resp.json())
+      .then((data) => {
+        setServices(data);
+      });
 
   }, []); 
 
   function handleSubmit(e){
-    fetch(`http://localhost:3000/services`, {
+    fetch(`https://webapp26.herokuapp.com/services`, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         title: title,
