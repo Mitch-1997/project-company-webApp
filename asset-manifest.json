@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/project-company-webApp/static/css/main.2e491615.css",
+    "main.js": "/project-company-webApp/static/js/main.b3cce5a5.js",
+    "static/media/About.jpg": "/project-company-webApp/static/media/About.b94be04f59a379b44e38.jpg",
+    "index.html": "/project-company-webApp/index.html",
+    "main.2e491615.css.map": "/project-company-webApp/static/css/main.2e491615.css.map",
+    "main.b3cce5a5.js.map": "/project-company-webApp/static/js/main.b3cce5a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e491615.css",
+    "static/js/main.b3cce5a5.js"
+  ]
+}
