@@ -17,7 +17,7 @@ h1{
 .serviceimage{
     width: 300px;
     height: 280px;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 @media screen and (max-width: 990px){
     .solution{

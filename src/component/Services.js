@@ -4,21 +4,27 @@ import Card from "./Combined"
 
 
 const Services = () => {
-  const [services, setServices] = useState([])
-
+  const [services, setServices] = useState([]);
+ 
+  
   
   useEffect(() => {
+    // console.log("services")
     fetch(`http://localhost:3000/services`)
     .then((resp) => resp.json())
-    .then((data) =>(data.services))
+    .then((data) =>{
+      setServices(data);
+    });
 
-  }, []) 
-  console.log(services);
+  }, []); 
+ 
   return (
     <>
       <h1>Our Services</h1>
       <div className="solution">
-        <Card />
+        {services.map((service)=>{
+          return (<Card service={service}/>)
+        })}
       </div>
     </>
   );
