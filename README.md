@@ -14,8 +14,9 @@
 
 ## User Stories
 
--Navigate to the next link by clicking the button on each of the pages, that is Home,About,Services,Contact, and Policy.
--Update the data for Services page.
+- Navigate to the next link by clicking the button on each of the pages, that is Home,About,Services,Contact, and Policy page.
+- Update the data for Services page.
+
 
 ### BDD (Behavior Driven Development)
 
