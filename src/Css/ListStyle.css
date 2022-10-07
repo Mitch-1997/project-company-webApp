@@ -30,9 +30,9 @@ header {
   font-size: 1.5rem;
   font-family: "Nunito", sans-serif;
 }
-.is-active {
-  background-color: orange;
-  border-bottom: 0.1rem double white;
+ .ListItems:hover {
+  color: blue;
+  
 }
 .icon {
   color: beige;
@@ -77,4 +77,3 @@ header {
 }
 
 }
-
