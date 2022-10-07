@@ -46,7 +46,7 @@ const Services = () => {
           return <Card service={service} />;
         })}
       </div>
-      <form onSubmit={handleSubmit} className="service form">
+      <form onSubmit={handleSubmit} className="contact">
         <div className="inline fields">
           <input
             value={title}
@@ -70,11 +70,9 @@ const Services = () => {
             placeholder="Image"
           />
         </div>
-        <div className="btnBox">
           <button className="btn" type="submit">
             Add product
           </button>
-        </div>
       </form>
     </>
   );

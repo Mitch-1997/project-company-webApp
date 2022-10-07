@@ -27,9 +27,9 @@ const Footer = () => {
     <>
       <Box
         sx={{
-          display: "flex",
+          display: "grid",
           flexDirection: "column",
-          minHeight: "100vh",
+          minHeight: "30vh",
         }}
       >
         <CssBaseline />
